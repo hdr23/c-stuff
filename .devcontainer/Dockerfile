@@ -8,10 +8,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     build-essential \
     gdb \
     git \
-    doxygen \
-    graphviz \
-    python3-pip \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/*
-
-# Install gcovr for code coverage reports
-RUN pip3 install gcovr
