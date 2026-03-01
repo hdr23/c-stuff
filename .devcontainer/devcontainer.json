@@ -1,0 +1,14 @@
+{
+    "name": "C Sandbox",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "anysphere.cpptools"
+        ]
+      }
+    },
+    "remoteUser": "root"
+  }
